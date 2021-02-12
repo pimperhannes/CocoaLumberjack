@@ -636,6 +636,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 435F03AB2174A39200A86B2D /* Module-Debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
 			};
 			name = Debug;
 		};
@@ -643,6 +645,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 435F03AA2174A39200A86B2D /* Module-Release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
 			};
 			name = Release;
 		};
